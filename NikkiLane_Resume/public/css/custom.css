@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Spectral:300,400,500,600');
+
+html,body{
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+body{
+	font-family: 'Spectral', serif;
+	background-color: #000;
+}
+header{
+	margin-top: 100px;
+	padding-bottom: 250px;
+}
+nav{
+	margin-bottom: 200px;
+}
+.navbar-brand{
+	font-size:2.5em;
+	color:#fff;
+}
+.navbar-brand:hover{
+	color:#F6E8E5;
+}
+.navbar-nav{
+	margin-left:25px;
+	font-size: 1.1em;
+	margin-top: 10px;
+}
+.navbar-nav a{
+	color: #4F4F4F;
+}
+.navbar-nav a:hover{
+	color: #F6E8E5;
+}
+
+.tag-line {
+	color: #E5E5E5;
+	font-size: 2em;
+	font-family: 'Spectral', serif;
+	font-weight: 300;
+}
+
+/*About Section*/
+#about{
+    margin-top: 50px;
+}
+#about h3{
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-bottom: 25px;
+}
+
+
+.about, .work-info{
+    padding-top: 10px;
+    line-height: 35px;
+    padding-bottom:110px;
+}
+.about p, .work-info{
+    color: #4F4F4F;
+    font-size: 1.1em;
+}
+.about-left, .about-right{
+	padding-right: 100px;
+}
+hr{
+	border-top: 1px solid #4f4f4f;
+	opacity: 0.2;
+}
+
+/*Work Section*/
+
+#work{
+    padding-top: 100px;
+}
+#work h3{
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 300;
+    padding-bottom: 2px;
+}
+.work-info{
+	padding-bottom: 119px;
+}
+
+.strategy i{
+	font-size: 2.5em;
+}
+
+.work-section h2 {
+	font-size: 1.5em;
+	font-weight: 300;
+	color:#fff;
+}
+.work-section .works{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: left;
+	margin-left: -40px;
+	line-height: 25px;
+}
+
+.strategy-icon{
+	border: 1px solid #707070;
+    color: #707070;
+	width: 110px;
+	padding-top: 30px;
+	padding-bottom:30px;
+	border-radius: 50%;
+	margin-left: 20px;
+	margin-bottom: 25px;
+}
+.strategy-icon .fa-quinscape{
+	margin-left: 30px;
+}
+.strategy-icon .fa-tint{
+margin-left: 35px;}
+.strategy-icon .fa-cogs{
+	margin-left:25px;
+}
+
+#work h2{
+	margin-top: 50px;
+	font-weight: 600;
+}
+.works{
+	margin-top: 20px;
+	color: #707070;
+}
+.works li{
+	line-height: 30px;
+    font-size: 1.1em;
+}
+.work-section{
+    padding-bottom: 63px;
+}
+
+/*Resume Section*/
+
+#resume{
+	margin-top: 150px;
+	padding-bottom: 150px;
+	padding-bottom: 275px;
+}
+#resume h3{
+	color: #fff;
+	font-weight: 100;
+	font-size: 2.4em;
+	opacity: 0.9;
+	padding-bottom: 17px;
+}
+.resume-txt{
+	color: #707070;
+	font-size: 1.1em;
+}
+
+.resume-link{
+	margin-top: 50px;
+}
+.resume-pdf{
+	border: 1px solid #C1C1C1;
+	padding: 16px 40px;
+	text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+	color: #fff;
+	font-weight: 800;
+	font-size: .9em;
+	opacity: .6;
+}
+.contact-label{
+	text-transform: uppercase;
+	font-size: .9em;
+	font-weight: 600;
+	color: #C1C1C1;
+	padding-top: 21px;
+    font-family: 'Raleway', sans-serif;
+}
+.contact-link{
+	color: #606060;
+	font-size: 1.1em;
+}
+#footer{
+	padding-bottom: 50px;
+	font-size: 1.1em;
+}
