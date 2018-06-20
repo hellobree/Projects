@@ -1,0 +1,296 @@
+body{
+    height: 100%;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+    font-weight:400;
+}
+h1{
+    font-size: 31px;
+    text-align:center;
+    line-height: 2;
+    letter-spacing:2px;
+}
+
+h2{
+    font-size: 20px;
+}
+
+p{
+    font-size:16px;
+    letter-spacing: 0.5px;
+    line-height:1.6;
+}
+.container.navigation{
+    position: absolute;
+    left: 50%;
+    -webkit-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    transform:translateX(-50%);
+}
+nav{
+    margin-top:40px;
+    color:#000;
+    font-size:18px;
+}
+nav a{
+    color: #000;
+}
+nav.logo{
+    display:inline-block;
+    font-weight:500;
+    position:absolute;
+    float:left;
+}
+nav ul{
+    margin:0px;
+}
+nav ul li{
+    display:inline-block;
+    margin-left:40px;
+}
+nav ul li a{
+    color: #000;
+}
+nav ul.center_nav{
+    text-align:center;
+    margin: -27px auto;
+    display:block;
+    padding: 0px;
+}
+nav ul.center_nav li:first-child{
+    margin-left:0;
+}
+nav ul.side-nav{
+    float:right;
+    margin-top: 0px;
+    }
+nav ul.side-nav a{
+    color: #EFEFEF;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+nav ul.side-nav a:hover{
+    color: #C2948A;
+}
+.header{
+    padding-top: 240px;
+    margin-bottom: 150px;
+}
+.header h1{
+    width:70%;
+    margin: 0px auto;
+    animation-duration: 8s;
+    -webkit-animation-delay:0.5s
+}
+header .work-break{
+   -webkit-animation-delay: 1s;
+}
+header .line{
+    margin:50px auto 30px auto;
+    width: 70%;
+    height: 35px;
+    position: relative;
+    text-align:center
+}
+header .line:after{
+    content:"";
+    position:absolute;
+    z-index:-1;
+    top: 0;
+    bottom:0;
+    left:50%;
+    border-left:2px solid #0B2027;
+}
+
+header h4{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/**BEHANCE PORFOLIO**/
+#behance_feed{
+    width:100%;
+    clear:both;
+    display:table;
+}
+.behance_entry{
+    width: 32%;
+    margin-top: 0%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    background: #FFE5D9;
+}
+.behance_entry:nth-child(3n+3){
+    margin-right: 0%;
+}
+.behance_entry:last-child{
+    margin-bottom: 0%;
+}
+.behance_entry img{
+    width: 100%;
+    display: block;
+    opacity: 1;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.behance_entry .titlelink{
+    opacity: 0;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 50% auto 0% auto;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #fff;
+    width: 85%;
+    line-height: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.behance_entry:hover{
+    cursor: pointer;
+}
+.behance_entry:hover .titlelink{
+    opacity: 1;
+}
+.behance_entry:hover img{
+    opacity: 0;
+}
+footer .footer-info{
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+footer .bottom-foot{
+margin-top: 40px;
+
+}
+footer.bottom-foot p{
+    font-size: 14px;
+}
+footer p{
+    line-height: 2.5;
+}
+footer p.about{
+    width: 90%;
+}
+footer h3{
+    text-align: left;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+footer ul{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+}
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 40px;;
+}
+footer ul li:first-child{
+    margin-left: 15px;
+}
+footer a{
+    color: #000;
+}
+div[id^="content"] {
+    color: #B8D6C0;
+}
+.bottom-foot a:hover{
+  color: #B8D6C0;
+}
+
+
+@media screen and (max-width: 550px){
+  nav ul.center_nav li{
+    opacity: 0;
+  }
+  #behance_feed{
+    margin: 0% auto;
+  }
+  .behance_entry{
+    width: 100%;
+    margin-right: 0%;
+  }
+  footer .footer-info{
+    margin-top: 60px;
+    margin-bottom: 40px;
+  }
+  h1{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 745px){
+  .header h1{
+    width: 100%;
+  }
+  .header h4{
+    font-size: 18px;
+  }
+  nav{
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (max-width: 750px){
+  footer .footer-content {
+    margin-top: 100px;
+    margin-bottom: 80px;
+  }
+  footer .bottom-footer{
+    margin-top: 40px;
+  }
+  footer ul{
+    float: none;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 835px){
+  .header h1{width: 95%;}
+}
+@media screen and (max-width: 1200px){
+  .header h1{
+    width: 85%;
+  }
+
+}
+@media screen and (max-wdith: 1140px){
+  .behance_entry{
+    width: 49%;
+  }
+  .behance_entry:nth-child(3n+3){
+    margin-right: 2%;
+  }
+  .behance_entry:nth-child(2n+2){
+    margin-right: 0%;
+  }
+}
+@media screen and (max-width: 1010px){
+  h1{font-size: 25px;}
+}
